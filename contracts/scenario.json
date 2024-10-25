@@ -1,0 +1,204 @@
+{
+  "accounts": {
+    "account{0}": "0x1CF497addCF61E29f88fc1f6f2567f839a4CD720"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1729869690614,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x9378203b60d51329fb2918e075e755322ac9013904defae7d765b3592cdc03c3",
+        "contractName": "LoanContract",
+        "bytecode": "6080604052348015600e575f80fd5b50335f806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506103de8061005b5f395ff3fe608060405234801561000f575f80fd5b506004361061003f575f3560e01c806327e235e3146100435780638da5cb5b14610073578063badee9f914610091575b5f80fd5b61005d600480360381019061005891906101f1565b6100ad565b60405161006a9190610234565b60405180910390f35b61007b6100c2565b604051610088919061025c565b60405180910390f35b6100ab60048036038101906100a691906102d4565b6100e5565b005b6001602052805f5260405f205f915090505481565b5f8054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b801561013f578160015f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f828254610137919061033f565b925050819055505b3373ffffffffffffffffffffffffffffffffffffffff167f9aa68a63d629724ca7d38d030b1c007f396c5214d2a156869a44c883734723c08383604051610187929190610381565b60405180910390a25050565b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6101c082610197565b9050919050565b6101d0816101b6565b81146101da575f80fd5b50565b5f813590506101eb816101c7565b92915050565b5f6020828403121561020657610205610193565b5b5f610213848285016101dd565b91505092915050565b5f819050919050565b61022e8161021c565b82525050565b5f6020820190506102475f830184610225565b92915050565b610256816101b6565b82525050565b5f60208201905061026f5f83018461024d565b92915050565b61027e8161021c565b8114610288575f80fd5b50565b5f8135905061029981610275565b92915050565b5f8115159050919050565b6102b38161029f565b81146102bd575f80fd5b50565b5f813590506102ce816102aa565b92915050565b5f80604083850312156102ea576102e9610193565b5b5f6102f78582860161028b565b9250506020610308858286016102c0565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6103498261021c565b91506103548361021c565b925082820190508082111561036c5761036b610312565b5b92915050565b61037b8161029f565b82525050565b5f6040820190506103945f830185610225565b6103a16020830184610372565b939250505056fea26469706673582212203bff6bfaf754bc6d0e55e046f3e3c7fa23801ff637a77e0e4de5db4e889627e064736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1729869696027,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x4773fc505905d34cdc1257306a398f326cc9663e0ec37dad245d7a86c572cae7",
+        "contractName": "LoanContract",
+        "bytecode": "6080604052348015600e575f80fd5b50335f806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506103de8061005b5f395ff3fe608060405234801561000f575f80fd5b506004361061003f575f3560e01c806327e235e3146100435780638da5cb5b14610073578063badee9f914610091575b5f80fd5b61005d600480360381019061005891906101f1565b6100ad565b60405161006a9190610234565b60405180910390f35b61007b6100c2565b604051610088919061025c565b60405180910390f35b6100ab60048036038101906100a691906102d4565b6100e5565b005b6001602052805f5260405f205f915090505481565b5f8054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b801561013f578160015f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f828254610137919061033f565b925050819055505b3373ffffffffffffffffffffffffffffffffffffffff167f9aa68a63d629724ca7d38d030b1c007f396c5214d2a156869a44c883734723c08383604051610187929190610381565b60405180910390a25050565b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6101c082610197565b9050919050565b6101d0816101b6565b81146101da575f80fd5b50565b5f813590506101eb816101c7565b92915050565b5f6020828403121561020657610205610193565b5b5f610213848285016101dd565b91505092915050565b5f819050919050565b61022e8161021c565b82525050565b5f6020820190506102475f830184610225565b92915050565b610256816101b6565b82525050565b5f60208201905061026f5f83018461024d565b92915050565b61027e8161021c565b8114610288575f80fd5b50565b5f8135905061029981610275565b92915050565b5f8115159050919050565b6102b38161029f565b81146102bd575f80fd5b50565b5f813590506102ce816102aa565b92915050565b5f80604083850312156102ea576102e9610193565b5b5f6102f78582860161028b565b9250506020610308858286016102c0565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6103498261021c565b91506103548361021c565b925082820190508082111561036c5761036b610312565b5b92915050565b61037b8161029f565b82525050565b5f6040820190506103945f830185610225565b6103a16020830184610372565b939250505056fea26469706673582212203bff6bfaf754bc6d0e55e046f3e3c7fa23801ff637a77e0e4de5db4e889627e064736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x9378203b60d51329fb2918e075e755322ac9013904defae7d765b3592cdc03c3": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "borrower",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "bool",
+            "name": "approved",
+            "type": "bool"
+          }
+        ],
+        "name": "LoanRequested",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "approved",
+            "type": "bool"
+          }
+        ],
+        "name": "requestLoan",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "balances",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "0x4773fc505905d34cdc1257306a398f326cc9663e0ec37dad245d7a86c572cae7": [
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "borrower",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "bool",
+            "name": "approved",
+            "type": "bool"
+          }
+        ],
+        "name": "LoanRequested",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "approved",
+            "type": "bool"
+          }
+        ],
+        "name": "requestLoan",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "balances",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
