@@ -36,6 +36,19 @@
 				"type": "event"
 			},
 			{
+				"inputs": [],
+				"name": "getLoanBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -43,7 +56,7 @@
 						"type": "address"
 					}
 				],
-				"name": "balances",
+				"name": "loanBalances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -99,7 +112,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LendingContract.sol": "LoanContract"
+			"contracts/LendingContract.sol": "LendingPlatform"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -114,11 +127,11 @@
 	},
 	"sources": {
 		"contracts/LendingContract.sol": {
-			"keccak256": "0x5aed4874f2884055ae20d7dc98a857b5bdddec4d7e1c62745bcb5ce62d946bd2",
+			"keccak256": "0xdf64bc85977622ca8a732bf623c52f2e75c50c3bf15e59b3650bea15c7d34666",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3ecd986d398748af76b89b67b3b73dec0a324ba845a9f3992640c093cdbd1036",
-				"dweb:/ipfs/QmaMykQRKGD2xs2d48VP9zvPFq8pWjKc3QisRZBhWoAbW2"
+				"bzz-raw://6c76c547c32de98c7426bbc2f4d6939b49db95aef7d5c087a8c2f4706523d43a",
+				"dweb:/ipfs/QmQQz2bCD3Xzr2bi5rhcBieHEPiDiYh1YTWgwbpe6YfFjq"
 			]
 		}
 	},
