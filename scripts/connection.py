@@ -15,7 +15,7 @@ else:
     print("Failed to connect to Ganache")
 
 # Define the contract address and ABI
-contract_address = "0xc4427930D51B5f5e540CF4D5cA7E4A7D2D5E5F99"  # Replace with your deployed contract address
+contract_address = str(input("Enter the contract address: "))
 contract_abi = [
     {
         "constant": False,
